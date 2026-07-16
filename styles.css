@@ -215,6 +215,16 @@ img {
     object-position: top;
 }
 
+.hero-logo {
+    position: absolute;
+    top: clamp(1rem, 3vw, 2rem);
+    right: clamp(1rem, 3vw, 2rem);
+    height: clamp(50px, 8vw, 120px);
+    width: auto;
+    z-index: 50;
+    display: block;
+}
+
 
 /* ===== BUTTONS ===== */
 .btn {
